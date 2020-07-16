@@ -1,0 +1,110 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+  /* background-image: url('backgroundImages/steven-lelham-atSaEOeE8Nk-unsplash.jpg');
+  background-size: cover; */
+}
+.page {
+  min-height: 100vh;
+}
+/* .page {
+  display: grid;
+  min-height: 100vh;
+  width: 100vw;
+  grid-template-rows: 100px auto 60px;
+  grid-template-columns: 100vw;
+} */
+.searchPage {
+  height: 100%;
+  /* width: 100vw; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  animation: animate 16s ease-in-out infinite;
+  background-size: cover;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    background-image: url('./backgroundImages/jeremy-bishop-_CFv3bntQlQ-unsplash.jpg');
+  }
+  25% {
+    background-image: url('./backgroundImages/gentrit-sylejmani-JjUyjE-oEbM-unsplash.jpg');
+  }
+  50% {
+    background-image: url('./backgroundImages/scott-webb-U5kQvbQWoG0-unsplash.jpg');
+  }
+  75% {
+    background-image: url('./backgroundImages/scott-webb-U5kQvbQWoG0-unsplash.jpg');
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+.socialMediaLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.socialMediaIcons {
+  height: 25px;
+  width: 25px;
+  filter: invert(1);
+}
+
+.footerOptions {
+  margin: 10px;
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchSport {
+  border-radius: 10px 0 0 10px;
+}
+
+.searchItem {
+  border: 0;
+  height: 2rem;
+  padding-left: 5px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.searchButton {
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  border-radius: 0 10px 10px 0;
+}
+
+.searchIcon {
+  height: 100%;
+  width: 100%;
+}
