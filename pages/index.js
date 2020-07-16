@@ -1,6 +1,6 @@
-import Layout from '../components/Layout';
-import Search from '../components/Search';
-import SearchBar from '../components/SearchBar';
+import Layout from "../components/Layout";
+
+import SearchBar from "../components/SearchBar";
 
 const Index = () => {
   return (
