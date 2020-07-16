@@ -1,3 +1,4 @@
+const { default: Connect } = require("./connect");
 function Header() {
   return (
     <div
@@ -23,9 +24,7 @@ function Header() {
       </div>
       <div className="col-md-3 text-center my-auto">
         <p className="pr-3 mt-4">90€ / h </p>
-        <button type="button" className="btn btn-primary btn-sm px-5">
-          Contact Me
-        </button>
+        <Connect></Connect>
       </div>
     </div>
   );
